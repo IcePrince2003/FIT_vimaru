@@ -1,0 +1,103 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header
+{
+    height: 200px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#pre-header
+{
+    height: 125px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+#navigation
+{
+    background-color: darkblue;
+    display: inline-block;
+    height: 60px;
+    width: 100vw;
+}
+#navigation li
+{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0px; line-height: 60px;
+
+}
+#navigation li a
+{
+    color: white;
+    margin: 0px;
+    padding: 0px 20px 0px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+#navigation a:hover
+{
+    background-color: lightgray;
+}
+.homepage
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.logo
+{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+.fa-search:hover
+{
+    cursor: pointer;
+}
+.fa-search:active
+{
+    background-color: gray;
+}
+
+#navigation li
+{
+    display: inline-block;
+}
+.subnavigation
+{
+    height: 60px;
+    display: block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#sub1:hover li
+{
+    display: block;
+}
+#subnav1 li
+{
+    margin: -3px;
+    padding: 0px;
+    display: none;
+}
+#subnav1 li a
+{
+    width: 100%;
+    color:black;
+}
